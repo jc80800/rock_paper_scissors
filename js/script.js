@@ -13,7 +13,7 @@ function generateComputer(){
 }
 
 //Checks player's choice and compares to computer
-function RPS(player){
+function RPS(playerChoice, player){
     let compChoice;
     const compNum = generateComputer();
     if (compNum == 1){
@@ -52,5 +52,14 @@ function RPS(player){
             console.log("Tie")
         }
     }
-    
+}
+
+function game(){
+    let compScore = 0;
+    let playerScore = 0;
+    for (let i = 1; i < 6; i++){
+        const result = prompt("Choose either rock, paper, or scissors (round of 5)");
+        console.log("Round " + i);
+        RPS(result, compScore, playerScore);
+    }
 }
