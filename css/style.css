@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 300px;
+    height: 200px;
+}
