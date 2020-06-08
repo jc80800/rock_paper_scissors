@@ -1,2 +1,1 @@
-# A rock-paper-scissors game implemented with html, css, javascript. Created with basic buttons 
-# that has event handlers. Used DOM manipulation to consistenly update the victor as well as scores 
+# A rock-paper-scissors game implemented with html, css, javascript. Created with basic buttons that has event handlers. Used DOM manipulation to consistenly update the victor as well as scores 
